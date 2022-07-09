@@ -1,7 +1,7 @@
 
 @media 
 (min-width: 320px) 
-and (max-width: 1023px) {
+and (max-width: 829px) {
   
   .container {
       width: 95%;
@@ -64,8 +64,8 @@ and (max-width: 1023px) {
     
 }
 
+@media (min-width: 830px) and (max-width: 1023px) {
 
-@media screen and (min-width: 1024px) {
     .fa-bars { 
       display: none;
     }
@@ -80,3 +80,8 @@ and (max-width: 1023px) {
     }
     
   }
+@media screen and (min-width: 1024px) {
+  .fa-bars {
+    display: none;
+  }
+}
